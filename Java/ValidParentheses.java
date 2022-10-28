@@ -3,14 +3,18 @@ package LeetCode.Java;
 import java.util.HashMap;
 import java.util.Stack;
 
-public class ValidParantheses{
+public class ValidParentheses {
     public static void main(String[] args) {
-        System.out.println(isValid("]"));
+        System.out.println(isValid("[]"));
     }
 
     public static boolean isValid(String s){
+
+        // I would highly suggest watching neetcode's explanation for this solution
+
         Stack<Character> stack = new Stack<>();
         HashMap<Character,Character> map = new HashMap<>();
+
         map.put(')', '(');
         map.put(']', '[');
         map.put('}', '{');
@@ -30,6 +34,6 @@ public class ValidParantheses{
             stack.pop();
         }
 
-        return !(stack.isEmpty());
+        return (stack.isEmpty());
     }
 }

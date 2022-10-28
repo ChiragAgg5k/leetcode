@@ -8,7 +8,12 @@ public class ValidAnagram{
     }
 
     public static boolean isValid(String s,String t){
-        
+
+        // Anagrams are words made from exact same letters arranged in different orders
+        // Therefore two words considered anagrams must:
+        // first of all have the same length
+        // then must have same letters with exact same count. for that we compare their hashmaps
+
         if(s.length() != t.length()){
             return false;
         }
