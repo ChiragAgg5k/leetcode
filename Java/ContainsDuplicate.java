@@ -2,22 +2,26 @@ package LeetCode.Java;
 
 import java.util.HashSet;
 
-public class ContainsDuplicate{
+public class ContainsDuplicate {
     public static void main(String[] args) {
         //test array
-        int[] testArray = {1,1,1,3,3,4,3,2,4,2};
+        int[] testArray = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
         System.out.println(containsDuplicate(testArray));
     }
 
-    public static boolean containsDuplicate(int[] array){
+    /**
+     * Checks if given array contains duplicate values
+     *
+     * @param array Integer Array
+     * @return boolean
+     */
 
-        // This solution is very similar to the one implemented in python.
-        // Hashsets are basically set() of python in Java.
+    public static boolean containsDuplicate(int[] array) {
 
         HashSet<Integer> checkArray = new HashSet<>();
-        
-        for(int n : array){
-            if(checkArray.contains(n)){
+
+        for (int n : array) {
+            if (checkArray.contains(n)) {
                 return true;
             }
             checkArray.add(n);
