@@ -33,6 +33,7 @@ hs_err_pid*
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea
 
 # Generated files
 .idea/**/contentModel.xml
@@ -155,7 +156,6 @@ cover/
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -235,4 +235,7 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# MacOS
+.DS_Store
 
