@@ -6,4 +6,4 @@ Each solution contains problem description, solution, time and space complexity,
 
 ## My LeetCode Profile
 
-![Leetcode Stats](https://leetcard.jacoblin.cool/ChiragAgg5k?ext=activity)
+![Leetcode Stats](https://leetcard.jacoblin.cool/ChiragAgg5k?theme=dark)
