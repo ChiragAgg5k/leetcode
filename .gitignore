@@ -33,7 +33,6 @@ hs_err_pid*
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-.idea
 
 # Generated files
 .idea/**/contentModel.xml
@@ -236,6 +235,18 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Templates end here
+
 # MacOS
 .DS_Store
+
+# .idea folders
+.idea
+Java/.idea
+
+# out folders
+out
+Java/out
+
+*.iml
 
