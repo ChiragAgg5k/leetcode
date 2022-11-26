@@ -1,13 +1,16 @@
 class Solution(object):
+    def isAnagram(self, s: str, t: str) -> bool:
+        """Checks if two strings are Anagrams.
+        Two strings are considered Anagrams if they are made from the same no. of each letter
 
-    def isAnagram(self, s, t):
+        Args:
+            s (str): string 1
+            t (str): string 2
 
+        Returns:
+            bool: True if Anagram, else False
         """
-        In this solution we will first check if lengths of both the string are same
-        Then we will create two hashmaps and store count of each letter in the string
-        if hashmaps of both the strings are same , the strings are anagram.
-        """
-        
+
         if len(s) != len(t):
             return False
 

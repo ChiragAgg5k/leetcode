@@ -1,10 +1,16 @@
+from typing import List
+
+
 class Solution(object):
-    def twoSum(self,nums, target):
-        
-        """
-        In this solution,
-        we will just save the index and value of each element as a "value:index" pair.
-        at the same time we will look for the integer which on addition makes our target int
+    def twoSum(self, nums: List, target: int) -> List:
+        """Algorithm to find indexes of two numbers whose sum equals to the target number.
+
+        Args:
+            nums (List[int]): array containing numbers
+            target (int): target number
+
+        Returns:
+            List: containing the indexes
         """
 
         prevMap = {}  # val -> index

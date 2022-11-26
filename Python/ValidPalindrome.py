@@ -1,15 +1,21 @@
 class Solution(object):
-    def isPalindrome(self, s):
+    def isPalindrome(self, s: str) -> bool:
+        """Checks palindrome, ignores any character not alphanumeric
+
+        Palindrome: Strings which remain the same on reversing the order. Eg. "taco cat".
+        (we ignored the whitespace)
+
+        Args:
+            s (str): String to be checked
+
+        Returns:
+            bool: True if valid palindrome, else False
         """
-        In this solution, 
-        we will just create a string only containing alphanumeric chars and lowercase them
-        then check palindrome using [::-1] (yay python)
-        """
-        
-        newstr = ""
-        
+
+        newStr = ""
+
         for i in s:
             if i.isalnum():
-                newstr += i.lower()
-        
-        return newstr == newstr[::-1]
+                newStr += i.lower()
+
+        return newStr == newStr[::-1]

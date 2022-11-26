@@ -4,7 +4,7 @@ from typing import List
 class Solution(object):
     def maxProfit(self, prices: List[int]) -> int:
         """Algorithm to find maximum profit on buying and selling stocks
-         Youtube explaination : https://www.youtube.com/watch?v=1pkOgXD63yU&feature=emb_title
+         Youtube explanation : https://www.youtube.com/watch?v=1pkOgXD63yU&feature=emb_title
 
         Args:
             prices (List[int]): Array of prices, each index representing a day
