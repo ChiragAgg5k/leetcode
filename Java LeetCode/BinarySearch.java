@@ -6,7 +6,7 @@ public class BinarySearch {
 
         int[] testArray = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         System.out.println(binarySearch(testArray, 11));
-        System.out.println(binarySearch(testArray,2));
+        System.out.println(binarySearch(testArray, 2));
     }
 
     /**

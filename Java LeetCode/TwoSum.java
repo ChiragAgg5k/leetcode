@@ -13,12 +13,13 @@ public class TwoSum {
 
     }
 
-  /**
-   * Function to find indexes of two numbers in an array which add up to the given target number
-   * @param nums int[]
-   * @param target int
-   * @return int[] , null if sum not found
-   */
+    /**
+     * Function to find indexes of two numbers in an array which add up to the given target number
+     *
+     * @param nums   int[]
+     * @param target int
+     * @return int[] , null if sum not found
+     */
     public static int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> hashmap = new HashMap<>();
 
