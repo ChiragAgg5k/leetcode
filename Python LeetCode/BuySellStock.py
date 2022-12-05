@@ -26,3 +26,12 @@ class Solution(object):
             r += 1
 
         return maxProfit
+
+
+if __name__ == "__main__":
+    testList = list(
+        map(
+            int, input("Enter space separated integers denoting stock prices: ").split()
+        )
+    )
+    print("Maximum Profit: ", Solution.maxProfit(testList))

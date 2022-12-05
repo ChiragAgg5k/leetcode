@@ -2,6 +2,7 @@ class Solution(object):
     def isAnagram(self, s: str, t: str) -> bool:
         """Checks if two strings are Anagrams.
         Two strings are considered Anagrams if they are made from the same no. of each letter
+        Youtube explanation : https://www.youtube.com/watch?v=9UtInBqnCgA&t=640s
 
         Args:
             s (str): string 1

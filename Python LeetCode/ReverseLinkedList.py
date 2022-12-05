@@ -9,9 +9,9 @@ class ListNode:
 
 
 class Solution:
-    @staticmethod
     def reverseList(head: Optional[ListNode]) -> Optional[ListNode]:
-        """Reverse a linked list , a classic
+        """Reversing a linked list
+        Youtube explanation: https://www.youtube.com/watch?v=G0_I-ZF0S38
 
         Returns:
             void: inplace function
