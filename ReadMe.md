@@ -7,3 +7,7 @@ Each solution contains problem description, solution, time and space complexity,
 ## My LeetCode Profile
 
 ![Leetcode Stats](https://leetcard.jacoblin.cool/ChiragAgg5k?theme=dark)
+
+## Credits
+
+A big shoutout to [NeetCode](https://www.youtube.com/c/NeetCode?app=desktop) for providing wonderful explanations for literally every problem. Also his website [NeetCode.io](https://neetcode.io/) was excellent for keeping track of my progress. I highly recommend you to check out his channel.
