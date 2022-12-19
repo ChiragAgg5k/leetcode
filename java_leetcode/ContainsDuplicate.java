@@ -15,7 +15,6 @@ public class ContainsDuplicate {
      * @param array Integer Array
      * @return boolean
      */
-
     public static boolean containsDuplicate(int[] array) {
 
         HashSet<Integer> checkArray = new HashSet<>();
