@@ -8,6 +8,12 @@ using namespace std;
 class Solution
 {
 public:
+    /**
+     * @brief Solution to LeetCode problem 217: Contains Duplicate
+     * Hashmap solution. Inrement count of each number in the vector. If count is > 1, return true.
+     * @param nums vector of integers
+     * @return bool
+     */
     bool containsDuplicate(vector<int> &nums)
     {
         map<int, int> m;

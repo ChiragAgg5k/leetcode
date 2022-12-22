@@ -6,6 +6,13 @@ using namespace std;
 class Solution
 {
 public:
+    /**
+     * @brief Solution to LeetCode problem 125: Valid Palindrome
+     * Two pointers, one from the beginning and one from the end.
+     * Move the pointers until they are on alphanumeric characters.
+     * @param s string
+     * @return bool
+     */
     bool isPalindrome(string s)
     {
         int i = 0;

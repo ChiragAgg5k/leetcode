@@ -1,5 +1,3 @@
-package LeetCode.Java;
-
 public class ValidPalindrome {
 
     public static void main(String[] args) {

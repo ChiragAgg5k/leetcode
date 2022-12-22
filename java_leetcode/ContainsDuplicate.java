@@ -1,5 +1,3 @@
-package LeetCode.Java;
-
 import java.util.HashSet;
 
 public class ContainsDuplicate {
@@ -10,8 +8,9 @@ public class ContainsDuplicate {
     }
 
     /**
-     * Checks if given array contains duplicate values
-     *
+     * Solution to LeetCode problem 217
+     * HashSet is used to check if the array contains duplicate values
+     * 
      * @param array Integer Array
      * @return boolean
      */
