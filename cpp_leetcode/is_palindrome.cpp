@@ -44,5 +44,10 @@ int main()
 {
     Solution sol;
     string s = "A man, a plan, a canal: Panama";
-    cout << sol.isPalindrome(s) << endl;
+    cout << "String: " << s << '\n';
+    cout << "Is Palindrome? : ";
+    if (sol.isPalindrome(s))
+        cout << "True" << endl;
+    else
+        cout << "False" << endl;
 }

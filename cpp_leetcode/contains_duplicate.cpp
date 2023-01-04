@@ -33,7 +33,22 @@ public:
 int main()
 {
     Solution s;
-    vector<int> v = {1, 2, 3};
-    cout << s.containsDuplicate(v);
+    vector<int> v = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10};
+
+    cout << "Vector: ";
+
+    for (int i : v)
+    {
+        cout << i << " ";
+    }
+
+    cout << '\n';
+    cout << "Contains Duplicate? : ";
+
+    if (s.containsDuplicate(v))
+        cout << "True" << endl;
+    else
+        cout << "False" << endl;
+
     return 0;
 }
